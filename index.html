@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LetsGrow Charts</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.6/dist/flatpickr.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.6/dist/flatpickr.min.css">
+  <style>
+
+  </style>
+</head>
+<body onload="reload()">
+  <div class="container">
+    <h1>Chart Dashboard</h1>
+    <label for="dateInput">Select Date:</label>
+    <input type="text" id="dateInput" class="date-picker" placeholder="Select Date">
+    <p>The format must be in MM/DD</p>
+    <h2>Temperature</h2>
+    <div id="temperatureContainer" class="chart-container"></div>
+    <h2>Humidity</h2>
+    <div id="humidityContainer" class="chart-container"></div>
+    <h2>pH Value</h2>
+    <div id="pHValueContainer" class="chart-container"></div>
+    <h2>Soil Moisture</h2>
+    <div id="soilMoistureContainer" class="chart-container"></div>
+    <h2>Luminosity</h2>
+    <div id="lightSensorContainer" class="chart-container"></div>
+
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-database.js"></script>
+  <script src="app.js"></script>
+  <script>
+  </script>
+</body>
+</html>

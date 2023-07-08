@@ -1,0 +1,131 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  text-align: center;
+}
+.date-picker {
+  padding: 22px;
+  font-size: 30px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  color: whitesmoke;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+label{
+  color: whitesmoke;
+  font-size: 30px;
+}
+h2{
+  color: whitesmoke;
+  font-size: 30px;
+  
+}
+p{
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+/* Chart container styles */
+.chart-container {
+  height: 400px;
+  margin-bottom: 40px;
+}
+
+/* Chart title styles */
+.chart-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Axis label styles */
+.axis-label {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Data series styles */
+.chart-series {
+  markerType: 'circle';
+}
+
+/* Legend styles */
+.chart-legend {
+  font-size: 14px;
+}
+
+/* Tooltip styles */
+.chart-tooltip {
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+/* Tooltip arrow styles */
+.chart-tooltip-pointer {
+  border-width: 0;
+}
+
+/* Data point styles */
+.chart-dataPoint {
+  border-radius: 4px;
+}
+
+/* Data point hover styles */
+.chart-dataPoint:hover {
+  border-width: 2px;
+}
+
+/* Data point selected styles */
+.chart-dataPoint.selected {
+  border-width: 2px;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .chart-container {
+    height: 300px;
+  }
+  .chart-title {
+    font-size: 18px;
+  }
+  .axis-label {
+    font-size: 10px;
+  }
+  .chart-legend {
+    font-size: 12px;
+  }
+  .chart-tooltip {
+    font-size: 10px;
+  }
+}

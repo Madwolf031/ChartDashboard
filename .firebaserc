@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "letsgrowdp2-52e1b",
+    "firebase logout": "letsgrowdp2-52e1b",
+    "staging": "letsgrowdp2-52e1b"
+  },
+  "targets": {},
+  "etags": {}
+}
